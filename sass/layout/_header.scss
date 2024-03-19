@@ -1,0 +1,16 @@
+@import '../vendors/bootstrap';
+@import '../base/typography';
+.header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 10rem;
+    padding-bottom:10rem;
+  }
+
+  span {
+    font-size: 4rem;
+    font-family: "Pacifico", cursive;
+    width: 10rem;
+  }
+}
