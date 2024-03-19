@@ -54,3 +54,9 @@ sass/
 |
 `– main.scss              # Archivo principal de SASS
 ```
+
+# Ejecución para poder compilar de Sass a Css
+
+```
+npm start
+```
